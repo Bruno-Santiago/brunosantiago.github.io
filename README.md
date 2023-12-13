@@ -1,3 +1,4 @@
 # Portfolio
 
-Hello, this is my portfolio here you will see a little about me and my skills!
+My portfolio web page made with HTML, CSS and JavaScript. 
+It's a simple static page with information about my professional profile.

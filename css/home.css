@@ -56,8 +56,8 @@
 }
 
 .home__image {
-  width: 31rem;
-  height: 31rem;
+  width: 32rem;
+  height: 32rem;
   margin: 2rem 0 4rem 0;
   animation: float 2s linear infinite alternate-reverse;
 }
@@ -81,5 +81,13 @@
     flex-direction: row;
   }
 
+}
+
+@media (max-width: 768px){
+  .home__image {
+    width: 24rem;
+    height: 24rem;
+ 
+  }
 }
 
