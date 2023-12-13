@@ -23,7 +23,7 @@
 }
 
 .home__subtitle {
-  width: 420px;
+  width: 430px;
   font-size: 2rem;
   padding-top: 1rem;
   font-weight: 500;
@@ -56,8 +56,8 @@
 }
 
 .home__image {
-  width: 32rem;
-  height: 32rem;
+  width: 22rem;
+  height: 22rem;
   margin: 2rem 0 4rem 0;
   animation: float 2s linear infinite alternate-reverse;
 }
@@ -83,10 +83,10 @@
 
 }
 
-@media (max-width: 768px){
+@media (min-width: 768px){
   .home__image {
-    width: 24rem;
-    height: 24rem;
+    width: 32rem;
+    height: 32rem;
  
   }
 }
