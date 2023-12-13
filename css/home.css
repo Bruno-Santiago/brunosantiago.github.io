@@ -1,7 +1,7 @@
 .home {
   padding-top: 8rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .home__title {
@@ -23,7 +23,7 @@
 }
 
 .home__subtitle {
-  width: 400px;
+  width: 420px;
   font-size: 2rem;
   padding-top: 1rem;
   font-weight: 500;
@@ -75,6 +75,10 @@
 
   .home__image {
     margin: 2rem 0 0;
+  }
+  #home {
+    display: flex;
+    flex-direction: row;
   }
 
 }
