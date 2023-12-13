@@ -1,12 +1,21 @@
 .home {
   padding-top: 8rem;
+  display: flex;
+  flex-direction: row;
 }
 
 .home__title {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 4rem;
   text-align: center;
   white-space: nowrap;
+}
+
+#vetor_image{
+  margin-left: 15%;
 }
 
 .home__title span:last-child {
@@ -14,7 +23,8 @@
 }
 
 .home__subtitle {
-  font-size: 1rem;
+  width: 400px;
+  font-size: 2rem;
   padding-top: 1rem;
   font-weight: 500;
   text-align: center;
@@ -46,8 +56,8 @@
 }
 
 .home__image {
-  width: 21rem;
-  height: 21rem;
+  width: 31rem;
+  height: 31rem;
   margin: 2rem 0 4rem 0;
   animation: float 2s linear infinite alternate-reverse;
 }
