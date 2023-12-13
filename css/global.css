@@ -85,7 +85,7 @@ body {
 @media (min-width: 768px) {
 
   .section {
-    padding: 0 3rem;
+    padding: 20px;
   }
 
   .section__title {
@@ -98,7 +98,7 @@ body {
 @media (min-width: 992px) {
 
   .section {
-    padding: 0 6rem;
+    padding: 40px;
   }
 
 }
